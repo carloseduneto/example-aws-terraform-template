@@ -1,5 +1,3 @@
-e
-
 Este repositório contém um template simples para provisionamento de recursos AWS utilizando Terraform.
 
 ## Como usar
