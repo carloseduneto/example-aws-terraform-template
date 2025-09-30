@@ -33,7 +33,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "this"{
-  bucket = "bucket01"
+  bucket = "bucket01io8844rryy4f"
 }
 
 resource "aws_dynamodb_table" "escola" {
