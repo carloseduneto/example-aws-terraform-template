@@ -4,7 +4,7 @@ terraform {
     bucket         = "ong-trabalho-gestao-qualidade-01-terraform"
     key            = "example-aws-terraform-template/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "example-aws-terraform-terraform-lock"
+    dynamodb_table = "terraform-lock-state"
     encrypt        = true
   }
 
