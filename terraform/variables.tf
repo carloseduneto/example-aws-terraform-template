@@ -10,6 +10,7 @@ variable "environment" {
   default     = "devops"
 }
 
+
 variable "project_name" {
   description = "Project name"
   type        = string
