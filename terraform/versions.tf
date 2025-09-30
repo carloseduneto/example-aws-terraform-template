@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     # Substitua pelos outputs do bootstrap
-    bucket         = "example-aws-terraform-terraform-state"
+    bucket         = "bucketS3ExemploTerraform01"
     key            = "example-aws-terraform-template/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "example-aws-terraform-terraform-lock"
